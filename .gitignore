@@ -1,0 +1,14 @@
+# Keep machine-specific and sensitive artifacts out of Git
+*.sdb
+*.evtx
+*.pfx
+*.p12
+*.key
+*.pem
+*.kdbx
+*.rdp
+*.cred
+*.credentials
+.env
+secrets/
+reports/private/
